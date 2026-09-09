@@ -269,11 +269,11 @@ const Services = () => {
       style={
         {
           "--elfreyzz-bg": "#222831",
-          "--elfreyzz-panel": "#34373B",
-          "--elfreyzz-panel-light": "#3B3D40",
-          "--elfreyzz-border": "#55585C",
+          "--elfreyzz-panel": "#222831",
+          "--elfreyzz-panel-light": "#222831",
+          "--elfreyzz-border": "#222831",
           "--elfreyzz-text": "#FFFFFF",
-          "--elfreyzz-muted": "#B8B8B8",
+          "--elfreyzz-muted": "#222831",
           "--elfreyzz-orange-dark": "#A33615",
           "--elfreyzz-orange-mid": "#C05A1E",
           "--elfreyzz-orange": "#ED932C",
@@ -291,18 +291,18 @@ const Services = () => {
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute -left-40 top-10 h-[420px] w-[420px] rounded-full bg-[#A33615]/10 blur-[110px]" />
 
-          <div className="absolute right-[-160px] top-[-100px] h-[520px] w-[520px] rounded-full bg-[#55585C]/45 blur-[120px]" />
+          <div className="absolute right-[-160px] top-[-100px] h-[520px] w-[520px] rounded-full bg-[#222831]/45 blur-[120px]" />
 
           <div className="absolute bottom-[-180px] left-[35%] h-[420px] w-[420px] rounded-full bg-[#ED932C]/[0.06] blur-[120px]" />
 
-          <div className="absolute inset-x-0 top-0 h-px bg-[#55585C]/70" />
+          <div className="absolute inset-x-0 top-0 h-px bg-[#222831]/70" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-6 pb-24 pt-20 lg:px-8 lg:pb-32 lg:pt-28">
           <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
             {/* Hero copy */}
             <div className="max-w-3xl">
-              <div className="mb-7 inline-flex items-center gap-3 rounded-full border border-[#55585C] bg-[#34373B]/80 px-4 py-2 text-sm font-medium text-[#B8B8B8] shadow-sm backdrop-blur-md">
+              <div className="mb-7 inline-flex items-center gap-3 rounded-full border border-[#222831] bg-[#222831]/80 px-4 py-2 text-sm font-medium text-[#222831] shadow-sm backdrop-blur-md">
                 <span className="h-2 w-2 rounded-full bg-[#ED932C] shadow-[0_0_12px_rgba(237,147,44,0.45)]" />
 
                 Professional Construction Solutions
@@ -315,7 +315,7 @@ const Services = () => {
                 </span>
               </h1>
 
-              <p className="mt-7 max-w-2xl text-lg leading-8 text-[#B8B8B8] sm:text-xl">
+              <p className="mt-7 max-w-2xl text-lg leading-8 text-[#222831] sm:text-xl">
                 From roads and civil infrastructure to structures, water
                 systems, engineering surveys and construction supplies, we
                 deliver dependable solutions built around quality,
@@ -360,7 +360,7 @@ const Services = () => {
 
                 <a
                   href="#services"
-                  className="inline-flex items-center justify-center gap-3 rounded-xl border border-[#55585C] bg-[#34373B]/40 px-6 py-3.5 font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ED932C]/60 hover:bg-[#34373B] hover:text-[#F0A34A]"
+                  className="inline-flex items-center justify-center gap-3 rounded-xl border border-[#222831] bg-[#222831]/40 px-6 py-3.5 font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ED932C]/60 hover:bg-[#222831] hover:text-[#F0A34A]"
                 >
                   Explore Our Services
 
@@ -380,11 +380,11 @@ const Services = () => {
                 </a>
               </div>
 
-              <div className="mt-10 grid max-w-2xl grid-cols-2 gap-6 border-t border-[#55585C] pt-8 sm:grid-cols-3">
+              <div className="mt-10 grid max-w-2xl grid-cols-2 gap-6 border-t border-[#222831] pt-8 sm:grid-cols-3">
                 <div>
                   <p className="text-2xl font-bold text-white">8+</p>
 
-                  <p className="mt-1 text-sm text-[#B8B8B8]">
+                  <p className="mt-1 text-sm text-[#222831]">
                     Core Services
                   </p>
                 </div>
@@ -392,7 +392,7 @@ const Services = () => {
                 <div>
                   <p className="text-2xl font-bold text-white">Quality</p>
 
-                  <p className="mt-1 text-sm text-[#B8B8B8]">
+                  <p className="mt-1 text-sm text-[#222831]">
                     Driven Delivery
                   </p>
                 </div>
@@ -400,7 +400,7 @@ const Services = () => {
                 <div className="hidden sm:block">
                   <p className="text-2xl font-bold text-white">Kenya</p>
 
-                  <p className="mt-1 text-sm text-[#B8B8B8]">
+                  <p className="mt-1 text-sm text-[#222831]">
                     & Beyond
                   </p>
                 </div>
@@ -409,9 +409,9 @@ const Services = () => {
 
             {/* Hero image */}
             <div className="relative">
-              <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-[#A33615]/20 via-transparent to-[#55585C]/40 blur-2xl" />
+              <div className="absolute -inset-5 rounded-[2rem] bg-gradient-to-br from-[#A33615]/20 via-transparent to-[#222831]/40 blur-2xl" />
 
-              <div className="relative overflow-hidden rounded-[2rem] border border-[#55585C] bg-[#34373B] p-3 shadow-2xl shadow-black/25">
+              <div className="relative overflow-hidden rounded-[2rem] border border-[#222831] bg-[#222831] p-3 shadow-2xl shadow-black/25">
                 <div className="relative overflow-hidden rounded-[1.5rem]">
                   <img
                     src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=85"
@@ -440,7 +440,7 @@ const Services = () => {
       {/* =========================================================
           INTRODUCTION
       ========================================================== */}
-      <section className="bg-[#3B3D40] py-20 lg:py-24">
+      <section className="bg-[#222831] py-20 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:items-center">
             <div>
@@ -454,7 +454,7 @@ const Services = () => {
             </div>
 
             <div className="max-w-3xl">
-              <p className="text-lg leading-8 text-[#B8B8B8]">
+              <p className="text-lg leading-8 text-[#222831]">
                 ELFREYZZ Ltd. provides professional construction services
                 across building, roads, civil works, infrastructure,
                 procurement and related construction solutions. We combine
@@ -463,7 +463,7 @@ const Services = () => {
                 completion.
               </p>
 
-              <p className="mt-5 text-lg leading-8 text-[#B8B8B8]">
+              <p className="mt-5 text-lg leading-8 text-[#222831]">
                 Our services are structured to support both individual project
                 requirements and broader construction programmes, giving
                 clients access to construction expertise, materials,
@@ -484,7 +484,7 @@ const Services = () => {
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute left-[-180px] top-[20%] h-[450px] w-[450px] rounded-full bg-[#ED932C]/[0.035] blur-[120px]" />
 
-          <div className="absolute right-[-180px] bottom-[10%] h-[450px] w-[450px] rounded-full bg-[#55585C]/30 blur-[120px]" />
+          <div className="absolute right-[-180px] bottom-[10%] h-[450px] w-[450px] rounded-full bg-[#222831]/30 blur-[120px]" />
         </div>
 
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
@@ -497,7 +497,7 @@ const Services = () => {
               Complete solutions for construction and infrastructure.
             </h2>
 
-            <p className="mt-5 text-lg leading-8 text-[#B8B8B8]">
+            <p className="mt-5 text-lg leading-8 text-[#222831]">
               Explore our range of construction, civil works, engineering,
               supply and equipment services.
             </p>
@@ -510,10 +510,10 @@ const Services = () => {
               return (
                 <div
                   key={service.number}
-                  className={`group relative overflow-hidden rounded-2xl border bg-[#34373B] transition-all duration-500 ${
+                  className={`group relative overflow-hidden rounded-2xl border bg-[#222831] transition-all duration-500 ${
                     isOpen
                       ? "border-[#ED932C]/70 shadow-xl shadow-[#A33615]/15"
-                      : "border-[#55585C] shadow-lg shadow-black/10 hover:-translate-y-2 hover:border-[#C05A1E]/70 hover:shadow-xl hover:shadow-black/20"
+                      : "border-[#222831] shadow-lg shadow-black/10 hover:-translate-y-2 hover:border-[#C05A1E]/70 hover:shadow-xl hover:shadow-black/20"
                   }`}
                 >
                   {/* Image */}
@@ -547,7 +547,7 @@ const Services = () => {
                       {service.title}
                     </h3>
 
-                    <p className="mt-3 text-sm leading-6 text-[#B8B8B8]">
+                    <p className="mt-3 text-sm leading-6 text-[#222831]">
                       {service.short}
                     </p>
 
@@ -560,8 +560,8 @@ const Services = () => {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <div className="border-t border-[#55585C] pt-4">
-                          <p className="text-sm leading-6 text-[#B8B8B8]">
+                        <div className="border-t border-[#222831] pt-4">
+                          <p className="text-sm leading-6 text-[#222831]">
                             {service.details}
                           </p>
                         </div>
@@ -596,7 +596,7 @@ const Services = () => {
 
                       <Link
                         to="/contact"
-                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#55585C] bg-[#222831] text-[#ED932C] transition-all duration-300 hover:border-[#ED932C]/70 hover:bg-gradient-to-br hover:from-[#A33615] hover:to-[#ED932C] hover:text-white"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#222831] bg-[#222831] text-[#ED932C] transition-all duration-300 hover:border-[#ED932C]/70 hover:bg-gradient-to-br hover:from-[#A33615] hover:to-[#ED932C] hover:text-white"
                         aria-label={`Contact us about ${service.title}`}
                       >
                         <svg
@@ -625,9 +625,9 @@ const Services = () => {
       {/* =========================================================
           FEATURE
       ========================================================== */}
-      <section className="bg-[#3B3D40] py-20 lg:py-28">
+      <section className="bg-[#222831] py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid overflow-hidden rounded-[2rem] border border-[#55585C] bg-[#34373B] shadow-2xl shadow-black/15 lg:grid-cols-2">
+          <div className="grid overflow-hidden rounded-[2rem] border border-[#222831] bg-[#222831] shadow-2xl shadow-black/15 lg:grid-cols-2">
             {/* Image */}
             <div className="relative min-h-[420px] overflow-hidden">
               <img
@@ -656,7 +656,7 @@ const Services = () => {
                 construction journey.
               </h2>
 
-              <p className="mt-5 text-lg leading-8 text-[#B8B8B8]">
+              <p className="mt-5 text-lg leading-8 text-[#222831]">
                 Our combination of construction expertise, engineering support,
                 procurement capability and equipment solutions enables us to
                 provide practical services around the needs of each project.
@@ -686,7 +686,7 @@ const Services = () => {
                       </svg>
                     </span>
 
-                    <span className="text-sm font-medium text-[#B8B8B8]">
+                    <span className="text-sm font-medium text-[#222831]">
                       {item}
                     </span>
                   </div>
@@ -723,7 +723,7 @@ const Services = () => {
       {/* =========================================================
           PROCESS STRIP
       ========================================================== */}
-      <section className="border-y border-[#55585C] bg-[#222831] py-16">
+      <section className="border-y border-[#222831] bg-[#222831] py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid gap-10 md:grid-cols-4">
             {[
@@ -757,7 +757,7 @@ const Services = () => {
                   {step.title}
                 </h3>
 
-                <p className="mt-2 text-sm leading-6 text-[#B8B8B8]">
+                <p className="mt-2 text-sm leading-6 text-[#222831]">
                   {step.text}
                 </p>
               </div>
@@ -784,7 +784,7 @@ const Services = () => {
             Let&apos;s build something that lasts.
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#B8B8B8]">
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#222831]">
             Tell us about your construction, civil works, infrastructure or
             supply requirements and let&apos;s discuss how ELFREYZZ Ltd. can
             support your project.
@@ -814,7 +814,7 @@ const Services = () => {
 
             <a
               href="tel:+254714544535"
-              className="inline-flex items-center justify-center gap-3 rounded-xl border border-[#55585C] bg-[#34373B]/50 px-7 py-4 font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ED932C]/60 hover:bg-[#34373B]"
+              className="inline-flex items-center justify-center gap-3 rounded-xl border border-[#222831] bg-[#222831]/50 px-7 py-4 font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#ED932C]/60 hover:bg-[#222831]"
             >
               <svg
                 className="h-5 w-5 text-[#ED932C]"
