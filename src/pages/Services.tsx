@@ -309,7 +309,7 @@ const Services = () => {
               </div>
 
               <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
-                Building solutions
+                Building durable solutions
                 <span className="block bg-gradient-to-r from-[#C05A1E] via-[#ED932C] to-[#F0A34A] bg-clip-text text-transparent">
                   designed to last.
                 </span>
