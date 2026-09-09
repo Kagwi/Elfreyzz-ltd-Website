@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Header } from "@/components/Header";
@@ -266,10 +265,10 @@ const Services = () => {
 
   return (
     <div
-      className="min-h-screen overflow-hidden bg-[#2B2E33] text-white"
+      className="min-h-screen overflow-hidden bg-[#222831] text-white"
       style={
         {
-          "--elfreyzz-bg": "#2B2E33",
+          "--elfreyzz-bg": "#222831",
           "--elfreyzz-panel": "#34373B",
           "--elfreyzz-panel-light": "#3B3D40",
           "--elfreyzz-border": "#55585C",
@@ -287,7 +286,7 @@ const Services = () => {
       {/* =========================================================
           HERO
       ========================================================== */}
-      <section className="relative isolate overflow-hidden bg-[#2B2E33]">
+      <section className="relative isolate overflow-hidden bg-[#222831]">
         {/* Background atmosphere */}
         <div className="pointer-events-none absolute inset-0 overflow-hidden">
           <div className="absolute -left-40 top-10 h-[420px] w-[420px] rounded-full bg-[#A33615]/10 blur-[110px]" />
@@ -420,7 +419,7 @@ const Services = () => {
                     className="h-[500px] w-full object-cover transition-transform duration-700 hover:scale-105"
                   />
 
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#2B2E33]/90 via-[#2B2E33]/15 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#222831]/90 via-[#222831]/15 to-transparent" />
 
                   <div className="absolute bottom-0 left-0 right-0 p-7">
                     <p className="text-sm font-medium uppercase tracking-[0.2em] text-[#F0A34A]">
@@ -480,7 +479,7 @@ const Services = () => {
       ========================================================== */}
       <section
         id="services"
-        className="relative overflow-hidden bg-[#2B2E33] py-20 lg:py-28"
+        className="relative overflow-hidden bg-[#222831] py-20 lg:py-28"
       >
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute left-[-180px] top-[20%] h-[450px] w-[450px] rounded-full bg-[#ED932C]/[0.035] blur-[120px]" />
@@ -525,15 +524,15 @@ const Services = () => {
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
 
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#2B2E33]/90 via-[#2B2E33]/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#222831]/90 via-[#222831]/20 to-transparent" />
 
                     {/* Icon */}
-                    <div className="absolute left-5 top-5 flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-[#2B2E33]/60 text-[#F0A34A] shadow-lg backdrop-blur-md">
+                    <div className="absolute left-5 top-5 flex h-11 w-11 items-center justify-center rounded-xl border border-white/15 bg-[#222831]/60 text-[#F0A34A] shadow-lg backdrop-blur-md">
                       {service.icon}
                     </div>
 
                     {/* Number */}
-                    <span className="absolute bottom-5 right-5 rounded-full border border-white/10 bg-[#2B2E33]/65 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">
+                    <span className="absolute bottom-5 right-5 rounded-full border border-white/10 bg-[#222831]/65 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">
                       {service.number}
                     </span>
                   </div>
@@ -597,7 +596,7 @@ const Services = () => {
 
                       <Link
                         to="/contact"
-                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#55585C] bg-[#2B2E33] text-[#ED932C] transition-all duration-300 hover:border-[#ED932C]/70 hover:bg-gradient-to-br hover:from-[#A33615] hover:to-[#ED932C] hover:text-white"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-[#55585C] bg-[#222831] text-[#ED932C] transition-all duration-300 hover:border-[#ED932C]/70 hover:bg-gradient-to-br hover:from-[#A33615] hover:to-[#ED932C] hover:text-white"
                         aria-label={`Contact us about ${service.title}`}
                       >
                         <svg
@@ -637,10 +636,10 @@ const Services = () => {
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 hover:scale-105"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-r from-[#2B2E33]/80 via-[#2B2E33]/25 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#222831]/80 via-[#222831]/25 to-transparent" />
 
               <div className="absolute bottom-8 left-8">
-                <span className="inline-flex rounded-full border border-white/15 bg-[#2B2E33]/60 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-md">
+                <span className="inline-flex rounded-full border border-white/15 bg-[#222831]/60 px-4 py-2 text-sm font-medium text-white shadow-lg backdrop-blur-md">
                   Built for Performance
                 </span>
               </div>
@@ -671,7 +670,7 @@ const Services = () => {
                   "Project-focused coordination",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3">
-                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-[#ED932C]/30 bg-[#2B2E33] text-[#ED932C]">
+                    <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-[#ED932C]/30 bg-[#222831] text-[#ED932C]">
                       <svg
                         className="h-3 w-3"
                         fill="none"
@@ -724,7 +723,7 @@ const Services = () => {
       {/* =========================================================
           PROCESS STRIP
       ========================================================== */}
-      <section className="border-y border-[#55585C] bg-[#2B2E33] py-16">
+      <section className="border-y border-[#55585C] bg-[#222831] py-16">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid gap-10 md:grid-cols-4">
             {[
@@ -770,7 +769,7 @@ const Services = () => {
       {/* =========================================================
           FINAL CTA
       ========================================================== */}
-      <section className="relative overflow-hidden bg-[#2B2E33] py-20 text-white lg:py-24">
+      <section className="relative overflow-hidden bg-[#222831] py-20 text-white lg:py-24">
         {/* CTA glow */}
         <div className="pointer-events-none absolute left-[-160px] top-[-160px] h-[430px] w-[430px] rounded-full bg-[#A33615]/12 blur-[120px]" />
 
